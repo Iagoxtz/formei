@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import "./Home.css";
 
-const images = Array.from({ length: 24 }, (_, i) => `/imagem${i + 1}.jpg`);
+const images = Array.from({ length: 27 }, (_, i) => `/imagem${i + 1}.jpg`);
 
 export default function Home() {
   return (
@@ -22,7 +22,7 @@ export default function Home() {
         <h1 className="title">🎉IAGO FORMOU🎉</h1>
         <h2 className="subtitle">Técnico em Informática</h2>
         <p className="description">
-          Depois de tantos anos de luta, surra, brigas para estudar,
+          Depois de tantos anos de luta, brigas para estudar,
           puxão de orelha, brincadeiras com essa galera que me acompanhou  
           durante esses 3 anos, finalmente acabou.
           Agora começa de novo, só que em nível hard! 🚀
